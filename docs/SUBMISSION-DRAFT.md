@@ -72,7 +72,7 @@ Remove `Render` if the final demo is hosted elsewhere.
 ### Try it out links
 
 - Live demo: `[ADD DEPLOYED HTTPS URL]`
-- Source code: `[ADD PUBLIC GITHUB URL]`
+- Source code: `https://github.com/hiouz/consentcart-paypal`
 
 ### Recommended gallery
 
@@ -134,7 +134,7 @@ ConsentCart uses the PayPal Developer Sandbox as its payment execution layer. Th
 
 ### Public repository
 
-`[ADD PUBLIC GITHUB, GITLAB, OR BITBUCKET URL]`
+`https://github.com/hiouz/consentcart-paypal`
 
 Before pasting it, confirm the repository is public and contains `LICENSE` and `README.md`.
 
