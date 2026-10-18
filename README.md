@@ -103,7 +103,7 @@ Set `PUBLIC_URL` to the deployed HTTPS origin. The Express server serves both th
 npm test
 ```
 
-The current suite covers allowed, review, budget-block, subscription-block and merchant-block outcomes, consent, order-to-assessment binding, capture replay prevention, completed-payment duplicate detection and audit-chain integrity.
+The current suite covers allowed, review, budget-block, subscription-block and merchant-block outcomes, consent, order-to-assessment binding, capture replay prevention, completed-payment duplicate detection, audit-chain integrity, HTTP authorization gates, structured AI extraction, and the outbound PayPal create/capture/webhook contracts.
 
 ## Hackathon disclosure
 

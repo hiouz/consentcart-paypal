@@ -55,7 +55,7 @@ Safe agentic commerce is not only a model-quality problem. It needs explicit aut
 - Server-side binding between an assessment and its PayPal order.
 - Duplicate-capture and completed-payment duplicate defenses.
 - Verified webhook handling and a tamper-evident audit trail.
-- Ten automated tests, a clean production build, and no known production dependency vulnerabilities at the time of submission.
+- Eighteen automated tests across policy, API, AI, PayPal, and audit behavior; a clean production build; and no known production dependency vulnerabilities at the time of submission.
 
 ## What's next for ConsentCart
 

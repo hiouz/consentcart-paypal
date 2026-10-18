@@ -7,7 +7,7 @@ import { approveAssessment, authorizeCapture, bindPayPalOrder, evaluatePurchase,
 import { appendAudit, getAudit, verifyAudit } from "./audit.js";
 import { captureOrder, createOrder, isConfigured, verifyWebhook } from "./paypal.js";
 
-const app = express();
+export const app = express();
 app.disable("x-powered-by");
 app.use((_req, res, next) => {
   res.setHeader("X-Content-Type-Options", "nosniff");
@@ -136,4 +136,6 @@ const publicPath = path.resolve(process.cwd(), "dist/public");
 app.use(express.static(publicPath));
 app.get("/{*splat}", (_req, res) => res.sendFile(path.join(publicPath, "index.html")));
 
-app.listen(config.port, () => console.log(`ConsentCart listening on http://localhost:${config.port}`));
+if (process.env.NODE_ENV !== "test" && process.env.VITEST !== "true") {
+  app.listen(config.port, () => console.log(`ConsentCart listening on http://localhost:${config.port}`));
+}
